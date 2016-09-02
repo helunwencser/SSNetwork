@@ -1,0 +1,32 @@
+#ignore generated class files
+*.class
+
+#ignore vim undo and swap files
+*.*~
+*.un~
+*.swp
+
+#ignore all bin directories
+bin/
+
+frontend/meteor/npm-debug.log
+
+target/
+
+backend/public/upload/*
+.DS_Store
+backend/db
+backend.eclipse
+backend/lib/
+backend/logs/
+backend/modules
+backend/project/project
+backend/project/target
+backend/target/
+backend/tmp/
+backend/test-result
+backend/server.pid
+*.eml
+backend/dist/
+backend/.cache
+backend/.idea
